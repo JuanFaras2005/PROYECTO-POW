@@ -6,10 +6,13 @@ using MvcTemplate.Models;
 public class AccountController : Controller
 {
     private readonly UserManager<ApplicationUser> _userManager;
+    private readonly SignInManager<ApplicationUser> _signInManager;
 
-    public AccountController(UserManager<ApplicationUser> userManager)
+    // Modifica el constructor para inyectar SignInManager
+    public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
     {
         _userManager = userManager;
+        _signInManager = signInManager;
     }
 
     [HttpGet]
@@ -63,8 +66,12 @@ public class AccountController : Controller
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
-                // Log the user in and redirect
-                return RedirectToAction("Index", "Home");
+                // Aquí usas el SignInManager para autenticar al usuario
+                var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("Index", "Home");  // Redirigir a la página principal
+                }
             }
 
             ModelState.AddModelError(string.Empty, "Invalid login attempt.");

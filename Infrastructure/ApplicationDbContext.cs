@@ -13,5 +13,17 @@ namespace Infrastructure.Repositories
 
         public DbSet<Milk> Milks { get; set; }
         public DbSet<Curso> Cursos { get; set; }
+        public DbSet<Profesor> Profesores { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder); // <- ¡IMPORTANTE!
+
+            // Relación Curso–Profesor (uno a muchos)
+            modelBuilder.Entity<Curso>()
+                .HasOne(c => c.Profesor)
+                .WithMany(p => p.Cursos)
+                .HasForeignKey(c => c.ProfesorId);
+        }
     }
 }

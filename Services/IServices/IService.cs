@@ -10,5 +10,8 @@ namespace Services.IServices
         Task<IList<Curso>> GetAllCourses();
         Task<List<MilkModel>> GetAllMilks();
         Task<Curso> GetCursoPorId(int id);
+        Task EditarCurso(Curso curso);
+        Task EliminarCurso(int id);
+        Task<dynamic> GetAllProfesores();
     }
 }

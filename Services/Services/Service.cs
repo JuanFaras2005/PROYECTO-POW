@@ -42,6 +42,21 @@ namespace Services.Services
         {
             await Repository.AddCurso(curso);  
         }
+
+        public Task EditarCurso(Curso curso)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task EliminarCurso(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<dynamic> GetAllProfesores()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

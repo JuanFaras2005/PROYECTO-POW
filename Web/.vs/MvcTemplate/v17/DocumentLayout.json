@@ -3,24 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\domain\\domain\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\domain\\domain\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\infrastructure\\repositories\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,40 +18,49 @@
       "AbsoluteMoniker": "D:0:0:{2919B29D-A381-4389-A9D9-5A96FE129EEB}|..\\Services\\Services.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\services\\services\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\infrastructure\\repositories\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2919B29D-A381-4389-A9D9-5A96FE129EEB}|..\\Services\\Services.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\services\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2919B29D-A381-4389-A9D9-5A96FE129EEB}|..\\Services\\Services.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\services\\iservices\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\curso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2919B29D-A381-4389-A9D9-5A96FE129EEB}|..\\Services\\Services.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\services\\services\\cursoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2919B29D-A381-4389-A9D9-5A96FE129EEB}|..\\Services\\Services.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\services\\iservices\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\infrastructure\\repositories\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\domain\\domain\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -74,10 +72,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\sofia\\onedrive\\escritorio\\trabajo juan\\mvctemplate\\mvctemplate\\web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -199,17 +193,134 @@
       "DocumentGroups": [
         {
           "DockedWidth": 137,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Curso.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain\\Curso.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Curso.cs",
+              "RelativeToolTip": "..\\Domain\\Domain\\Curso.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:08:27.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:26:25.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Profesor.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain\\Profesor.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Profesor.cs",
+              "RelativeToolTip": "..\\Domain\\Domain\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:10:25.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAswBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T20:50:24.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Curso\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Index.cshtml",
+              "RelativeToolTip": "Views\\Curso\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T21:21:47.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Curso\\Create.cshtml",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Create.cshtml",
+              "RelativeToolTip": "Views\\Curso\\Create.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAuwDEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-13T21:11:09.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Curso\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Details.cshtml",
+              "RelativeToolTip": "Views\\Curso\\Details.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-14T19:02:42.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\Service.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Services\\Service.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\Service.cs",
+              "RelativeToolTip": "..\\Services\\Services\\Service.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T22:35:58.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "CursoController.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\CursoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\CursoController.cs",
+              "RelativeToolTip": "Controllers\\CursoController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAcwF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T21:29:55.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "CursoService.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\CursoService.cs",
               "RelativeDocumentMoniker": "..\\Services\\Services\\CursoService.cs",
               "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\CursoService.cs",
               "RelativeToolTip": "..\\Services\\Services\\CursoService.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwCgAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T15:45:30.694Z",
               "EditorCaption": ""
@@ -222,143 +333,53 @@
               "RelativeDocumentMoniker": "..\\Services\\IServices\\IService.cs",
               "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\IServices\\IService.cs",
               "RelativeToolTip": "..\\Services\\IServices\\IService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T15:49:07.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
-              "RelativeToolTip": "..\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAqwBIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T16:08:16.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Curso\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Curso\\Edit.cshtml",
-              "ViewState": "AgIAACIAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T21:24:24.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Curso\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Curso\\Delete.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T21:23:10.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Curso\\Details.cshtml",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Details.cshtml",
-              "RelativeToolTip": "Views\\Curso\\Details.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T21:17:58.585Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CursoController.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\CursoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\CursoController.cs",
-              "RelativeToolTip": "Controllers\\CursoController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwC8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T21:29:55.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Curso\\Create.cshtml",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Create.cshtml",
-              "RelativeToolTip": "Views\\Curso\\Create.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T21:11:09.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Models\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Models\\RegisterViewModel.cs",
-              "RelativeToolTip": "Models\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:19:08.245Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwEkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:07:27.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAqwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwD4AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-14T15:23:07.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\Service.cs",
-              "RelativeDocumentMoniker": "..\\Services\\Services\\Service.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\Service.cs",
-              "RelativeToolTip": "..\\Services\\Services\\Service.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAcwCMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T22:35:58.656Z",
+              "WhenOpened": "2025-04-13T16:09:48.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T20:50:24.992Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
@@ -371,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -393,19 +414,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-16T02:13:09.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Curso\\Index.cshtml",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Curso\\Index.cshtml",
-              "RelativeToolTip": "Views\\Curso\\Index.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADoAAACEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-13T21:21:47.403Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -433,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -446,32 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAuwDEAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:07:27.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAuwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T16:09:48.386Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
@@ -483,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -495,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -507,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "20250514044701_CreateIdentityTables.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Migrations\\20250514044701_CreateIdentityTables.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250514044701_CreateIdentityTables.cs",
@@ -519,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -531,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "MvcTemplate.csproj",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\MvcTemplate.csproj",
               "RelativeDocumentMoniker": "MvcTemplate.csproj",
@@ -543,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "MilkController.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\MilkController.cs",
               "RelativeDocumentMoniker": "Controllers\\MilkController.cs",
@@ -555,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -567,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -579,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "MProfile.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Common\\MProfile.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Common\\MProfile.cs",
@@ -589,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -601,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services\\Service.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services\\Service.cs",
@@ -611,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "MilkTest.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\DomainTest\\MilkTest.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\DomainTest\\MilkTest.cs",
@@ -621,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "ServiceTest.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\ServicesTest\\ServiceTest.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\ServicesTest\\ServiceTest.cs",
@@ -631,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -643,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "MilkModels.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Dtos\\MilkModels.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Dtos\\MilkModels.cs",
@@ -653,7 +636,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "AddMilk.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Milk\\AddMilk.cshtml",
               "RelativeDocumentMoniker": "Views\\Milk\\AddMilk.cshtml",
@@ -665,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "IService.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\IServices\\IService.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\IServices\\IService.cs",
@@ -675,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Milk\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Milk\\Index.cshtml",
@@ -687,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -699,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "20250413182217_InitialCreate.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250413182217_InitialCreate.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250413182217_InitialCreate.cs",
@@ -709,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "20250415212053_003.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250415212053_003.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250415212053_003.cs",
@@ -719,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
@@ -729,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\BaseRepository.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\BaseRepository.cs",
@@ -739,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\BaseEntity.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\BaseEntity.cs",
@@ -749,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "Milk.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\Milk.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\Milk.cs",
@@ -759,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
@@ -769,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
@@ -779,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\DependencyInjection.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\DependencyInjection.cs",
@@ -789,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\DependencyInjection.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\DependencyInjection.cs",
@@ -799,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Web\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -811,7 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -821,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "Services.csproj",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services.csproj",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services.csproj",

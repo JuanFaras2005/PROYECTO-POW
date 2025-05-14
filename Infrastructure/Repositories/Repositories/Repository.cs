@@ -37,18 +37,20 @@ namespace Infrastructure.Repositories.Repositories
                 throw new Exception("Error while getting all courses", ex);
             }
         }
-
         public async Task<Curso> GetCursoPorId(int id)
         {
             try
             {
-                return await context.Cursos.FindAsync(id);  
+                return await context.Cursos
+                    .Include(c => c.Profesor)
+                    .FirstOrDefaultAsync(c => c.Id == id);
             }
             catch (Exception ex)
             {
                 throw new Exception("Error while getting course by ID", ex);
             }
         }
+
 
         public async Task AddMilk(Milk milk)
         {

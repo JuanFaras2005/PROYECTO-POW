@@ -15,7 +15,6 @@ namespace Services.Services
             _context = context;
         }
 
-        // Métodos para Cursos
         public async Task<IList<Curso>> GetAllCourses()
         {
             return await _context.Cursos.ToListAsync();
@@ -32,15 +31,35 @@ namespace Services.Services
             await _context.SaveChangesAsync();
         }
 
-        // Métodos temporales para Milk (por exigencia de la interfaz)
+        public async Task EditarCurso(Curso curso)
+        {
+            _context.Cursos.Update(curso);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task EliminarCurso(int id)
+        {
+            var curso = await _context.Cursos.FindAsync(id);
+            if (curso != null)
+            {
+                _context.Cursos.Remove(curso);
+                await _context.SaveChangesAsync();
+            }
+        }
+
         public async Task AddMilk(int v, DateTime now)
         {
-            throw new NotImplementedException(); // Lo puedes quitar luego
+            throw new NotImplementedException();
         }
 
         public async Task<List<MilkModel>> GetAllMilks()
         {
-            throw new NotImplementedException(); // Lo puedes quitar luego
+            throw new NotImplementedException();
+        }
+
+        public Task<dynamic> GetAllProfesores()
+        {
+            throw new NotImplementedException();
         }
     }
 }
