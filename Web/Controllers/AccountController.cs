@@ -30,10 +30,12 @@ public class AccountController : Controller
                 Nombre = model.Nombre,
                 Apellido = model.Apellido
             };
+
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
+                TempData["SuccessMessage"] = "Usuario registrado exitosamente.";
                 return RedirectToAction("Index", "Home");
             }
             else

@@ -15,3 +15,4 @@ C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Services
 C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Services\obj\Debug\net9.0\refint\Services.dll
 C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Services\obj\Debug\net9.0\Services.pdb
 C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Services\obj\Debug\net9.0\ref\Services.dll
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Services\obj\Debug\net9.0\Services.sourcelink.json

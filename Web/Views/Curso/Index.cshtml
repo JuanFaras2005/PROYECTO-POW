@@ -34,7 +34,7 @@ else
 }
 
 <p>
-    <a class="btn btn-primary" asp-page="/Cursos/Create">Agregar Nuevo Curso</a>
+    <a class="btn btn-primary" asp-controller="Curso" asp-action="Create">Agregar Nuevo Curso</a>
 </p>
 
 <table class="table table-striped">
@@ -54,9 +54,9 @@ else
                 <td>@item.Nombre</td>
                 <td>@item.Descripcion</td>
                 <td>
-                    <a class="btn btn-sm btn-warning" asp-page="/Cursos/Edit" asp-route-id="@item.Id">Editar</a>
-                    <a class="btn btn-sm btn-info" asp-page="/Cursos/Details" asp-route-id="@item.Id">Detalles</a>
-                    <a class="btn btn-sm btn-danger" asp-page="/Cursos/Delete" asp-route-id="@item.Id">Eliminar</a>
+                    <a class="btn btn-sm btn-warning" asp-controller="Curso" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-sm btn-info" asp-controller="Curso" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                    <a class="btn btn-sm btn-danger" asp-controller="Curso" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
                 </td>
             </tr>
         }

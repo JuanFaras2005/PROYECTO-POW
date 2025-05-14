@@ -11,6 +11,45 @@ namespace Infrastructure.Repositories.Repositories
         {
         }
 
+        public async Task AddCurso(Curso curso)
+        {
+            try
+            {
+                Begin();
+                context.Cursos.Add(curso); 
+                await context.SaveChangesAsync(); 
+                Commit();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error while adding course", ex);
+            }
+        }
+
+        public async Task<IList<Curso>> GetAllCursos()
+        {
+            try
+            {
+                return await context.Cursos.ToListAsync();  
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error while getting all courses", ex);
+            }
+        }
+
+        public async Task<Curso> GetCursoPorId(int id)
+        {
+            try
+            {
+                return await context.Cursos.FindAsync(id);  
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error while getting course by ID", ex);
+            }
+        }
+
         public async Task AddMilk(Milk milk)
         {
             try
@@ -26,10 +65,9 @@ namespace Infrastructure.Repositories.Repositories
             }
         }
 
-        public Task<List<Milk>> GetAllMilks()
+        public async Task<List<Milk>> GetAllMilks()
         {
-
-            return context.Milks.ToListAsync();
+            return await context.Milks.ToListAsync(); 
         }
     }
 }

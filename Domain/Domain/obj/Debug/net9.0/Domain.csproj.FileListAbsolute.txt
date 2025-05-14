@@ -10,3 +10,4 @@ C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Domain\D
 C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Domain\Domain\obj\Debug\net9.0\refint\Domain.dll
 C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Domain\Domain\obj\Debug\net9.0\Domain.pdb
 C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Domain\Domain\obj\Debug\net9.0\ref\Domain.dll
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Domain\Domain\obj\Debug\net9.0\Domain.sourcelink.json

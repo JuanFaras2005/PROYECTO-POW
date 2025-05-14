@@ -6,5 +6,10 @@ namespace Infrastructure.Repositories.IRepositories
     {
         Task AddMilk(Milk milk);
         Task<List<Milk>> GetAllMilks();
+
+        Task<IList<Curso>> GetAllCursos(); 
+        Task<Curso> GetCursoPorId(int id);  
+        Task AddCurso(Curso curso);         
+
     }
 }
