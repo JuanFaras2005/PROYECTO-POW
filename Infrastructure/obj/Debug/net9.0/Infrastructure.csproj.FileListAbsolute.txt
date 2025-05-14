@@ -1,0 +1,17 @@
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\bin\Debug\net9.0\Infrastructure.runtimeconfig.json
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\bin\Debug\net9.0\Domain.dll
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\bin\Debug\net9.0\Domain.pdb
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\Infrastructure.genruntimeconfig.cache
+C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

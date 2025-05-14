@@ -1,0 +1,64 @@
+﻿@using Domain
+@model List<Domain.Curso>
+@using Microsoft.AspNetCore.Identity
+@using Services.Dtos
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Lista de Cursos";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <p>Has iniciado sesión como: <strong>@User.Identity.Name</strong></p>
+
+    @if (User.IsInRole("Administrador"))
+    {
+        <button class="btn btn-danger">Botón de Administrador</button>
+    }
+    else if (User.IsInRole("Profesor"))
+    {
+        <button class="btn btn-primary">Botón de Profesor</button>
+    }
+    else if (User.IsInRole("Estudiante"))
+    {
+        <button class="btn btn-success">Botón de Estudiante</button>
+    }
+}
+else
+{
+    <p>No has iniciado sesión.</p>
+}
+
+<p>
+    <a class="btn btn-primary" asp-page="/Cursos/Create">Agregar Nuevo Curso</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+               
+                <td>@item.Nombre</td>
+                <td>@item.Descripcion</td>
+                <td>
+                    <a class="btn btn-sm btn-warning" asp-page="/Cursos/Edit" asp-route-id="@item.Id">Editar</a>
+                    <a class="btn btn-sm btn-info" asp-page="/Cursos/Details" asp-route-id="@item.Id">Detalles</a>
+                    <a class="btn btn-sm btn-danger" asp-page="/Cursos/Delete" asp-route-id="@item.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

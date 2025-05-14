@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|d:\\repos\\usacarepos\\programascsrharp\\mvctemplate\\infrastructure\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:infrastructure\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|d:\\repos\\usacarepos\\programascsrharp\\mvctemplate\\infrastructure\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:infrastructure\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02ABCC4-6648-4C29-B01C-BE5E3DE84211}|Infrastructure\\Infrastructure\\Infrastructure.csproj|d:\\repos\\usacarepos\\programascsrharp\\mvctemplate\\infrastructure\\infrastructure\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02ABCC4-6648-4C29-B01C-BE5E3DE84211}|Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure\\migrations\\00000000000000_createidentityschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E02ABCC4-6648-4C29-B01C-BE5E3DE84211}|Infrastructure\\Infrastructure\\Infrastructure.csproj|d:\\repos\\usacarepos\\programascsrharp\\mvctemplate\\infrastructure\\infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E02ABCC4-6648-4C29-B01C-BE5E3DE84211}|Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Infrastructure\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:55:26.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "00000000000000_CreateIdentitySchema.cs",
+              "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "RelativeToolTip": "Infrastructure\\Infrastructure\\Migrations\\00000000000000_CreateIdentitySchema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:49:22.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:29:45.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Infrastructure\\Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T15:09:05.985Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
