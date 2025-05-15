@@ -1,6 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Domain;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Services.IServices;
 
 namespace MvcTemplate.Controllers
@@ -32,7 +33,7 @@ namespace MvcTemplate.Controllers
         public async Task<IActionResult> Create()
         {
             var profesores = await Service.GetAllProfesores();
-            ViewBag.Profesores = profesores;
+            ViewBag.Profesores = new SelectList(profesores, "Id", "NombreCompleto"); // Ajusta el nombre si es Nombre o NombreCompleto
             return View();
         }
 
@@ -46,7 +47,7 @@ namespace MvcTemplate.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            ViewBag.Profesores = await Service.GetAllProfesores(); // Repetimos para cuando ModelState no es válido
+            ViewBag.Profesores = await Service.GetAllProfesores();
             return View(curso);
         }
 

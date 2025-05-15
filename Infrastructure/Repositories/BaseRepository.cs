@@ -1,35 +1,34 @@
-﻿
-using Infrastructure.Repositories;
+﻿using Infrastructure.Repositories;
 
 namespace Infrastructure.Persistence.Repositories
 {
     public class BaseRepository
     {
-        public readonly ApplicationDbContext context;
+        protected readonly ApplicationDbContext _context;
 
-
-        public BaseRepository(ApplicationDbContext _context)
+        public BaseRepository(ApplicationDbContext context)
         {
-            context = _context;
-
+            _context = context;
         }
 
         public void SaveAsync()
         {
-            context.SaveChanges();
-        }
-        public void Begin()
-        {
-            context.Database.BeginTransaction();
-        }
-        public void Commit()
-        {
-            context.Database.CommitTransaction();
-        }
-        public void Rollback()
-        {
-            context.Database.RollbackTransaction();
+            _context.SaveChanges();
         }
 
+        public void Begin()
+        {
+            _context.Database.BeginTransaction();
+        }
+
+        public void Commit()
+        {
+            _context.Database.CommitTransaction();
+        }
+
+        public void Rollback()
+        {
+            _context.Database.RollbackTransaction();
+        }
     }
 }

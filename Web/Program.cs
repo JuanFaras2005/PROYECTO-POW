@@ -23,16 +23,23 @@ public class Program
         builder.Services.AddServices(builder.Configuration);
 
         // Add Identity services with custom ApplicationUser
-        builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
-            .AddEntityFrameworkStores<ApplicationDbContext>()
-            .AddDefaultTokenProviders();  // This ensures token generation support for things like password reset
+        builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+        {
+            options.Password.RequireDigit = false;
+            options.Password.RequiredLength = 6;
+            options.Password.RequireNonAlphanumeric = false;
+            options.Password.RequireUppercase = false;
+            options.Password.RequireLowercase = false;
+            options.SignIn.RequireConfirmedAccount = false;
+        })
+        .AddEntityFrameworkStores<ApplicationDbContext>()
+        .AddDefaultTokenProviders();
 
         // Add controllers with views support
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
 
-        // Configure the HTTP request pipeline.
         if (app.Environment.IsDevelopment())
         {
             app.UseMigrationsEndPoint();
@@ -40,20 +47,19 @@ public class Program
         else
         {
             app.UseExceptionHandler("/Home/Error");
-            app.UseHsts(); // HSTS for production
+            app.UseHsts();
         }
 
         app.UseHttpsRedirection();
+        app.UseStaticFiles();
         app.UseRouting();
-        
+
         app.UseAuthentication();
         app.UseAuthorization();
 
-        app.MapStaticAssets();
         app.MapControllerRoute(
             name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}")
-            .WithStaticAssets();
+            pattern: "{controller=Home}/{action=Index}/{id?}");
 
         app.Run();
     }

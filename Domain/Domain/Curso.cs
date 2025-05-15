@@ -13,7 +13,7 @@ namespace Domain
 
         public string Descripcion { get; set; }
 
-        public int ProfesorId { get; set; } // ID del usuario profesor
+        public int? ProfesorId { get; set; } 
 
         public Profesor Profesor { get; set; }
         public DateTime FechaCreacion { get; set; } = DateTime.Now;

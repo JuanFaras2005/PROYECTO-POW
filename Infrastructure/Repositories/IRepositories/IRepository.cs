@@ -8,7 +8,10 @@ namespace Infrastructure.Repositories.IRepositories
         Task<List<Milk>> GetAllMilks();
 
         Task<IList<Curso>> GetAllCursos(); 
-        Task<Curso> GetCursoPorId(int id);  
+        Task<Curso> GetCursoPorId(int id);
+
+        Task<List<Profesor>> GetAllProfesores();
+
         Task AddCurso(Curso curso);         
 
     }

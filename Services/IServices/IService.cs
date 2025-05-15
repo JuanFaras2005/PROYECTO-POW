@@ -12,6 +12,6 @@ namespace Services.IServices
         Task<Curso> GetCursoPorId(int id);
         Task EditarCurso(Curso curso);
         Task EliminarCurso(int id);
-        Task<dynamic> GetAllProfesores();
+        Task<List<Profesor>> GetAllProfesores();
     }
 }

@@ -53,10 +53,11 @@ namespace Services.Services
             throw new NotImplementedException();
         }
 
-        public Task<dynamic> GetAllProfesores()
+        public async Task<List<Profesor>> GetAllProfesores()
         {
-            throw new NotImplementedException();
+            return await Repository.GetAllProfesores();
         }
+
     }
 
 }

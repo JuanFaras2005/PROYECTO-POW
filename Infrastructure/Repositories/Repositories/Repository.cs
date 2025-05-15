@@ -7,7 +7,9 @@ namespace Infrastructure.Repositories.Repositories
 {
     public class Repository : BaseRepository, IRepository
     {
-        public Repository(ApplicationDbContext _context) : base(_context)
+        // No necesitas declarar otra vez _context, ya viene en BaseRepository
+
+        public Repository(ApplicationDbContext context) : base(context)
         {
         }
 
@@ -16,8 +18,8 @@ namespace Infrastructure.Repositories.Repositories
             try
             {
                 Begin();
-                context.Cursos.Add(curso); 
-                await context.SaveChangesAsync(); 
+                _context.Cursos.Add(curso);
+                await _context.SaveChangesAsync();
                 Commit();
             }
             catch (Exception ex)
@@ -30,18 +32,19 @@ namespace Infrastructure.Repositories.Repositories
         {
             try
             {
-                return await context.Cursos.ToListAsync();  
+                return await _context.Cursos.ToListAsync();
             }
             catch (Exception ex)
             {
                 throw new Exception("Error while getting all courses", ex);
             }
         }
+
         public async Task<Curso> GetCursoPorId(int id)
         {
             try
             {
-                return await context.Cursos
+                return await _context.Cursos
                     .Include(c => c.Profesor)
                     .FirstOrDefaultAsync(c => c.Id == id);
             }
@@ -51,14 +54,13 @@ namespace Infrastructure.Repositories.Repositories
             }
         }
 
-
         public async Task AddMilk(Milk milk)
         {
             try
             {
                 Begin();
-                context.Milks.Add(milk);
-                await context.SaveChangesAsync();
+                _context.Milks.Add(milk);
+                await _context.SaveChangesAsync();
                 Commit();
             }
             catch (Exception ex)
@@ -69,7 +71,12 @@ namespace Infrastructure.Repositories.Repositories
 
         public async Task<List<Milk>> GetAllMilks()
         {
-            return await context.Milks.ToListAsync(); 
+            return await _context.Milks.ToListAsync();
+        }
+
+        public async Task<List<Profesor>> GetAllProfesores()
+        {
+            return await _context.Profesores.ToListAsync();
         }
     }
 }

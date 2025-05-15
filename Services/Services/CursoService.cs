@@ -61,5 +61,10 @@ namespace Services.Services
         {
             throw new NotImplementedException();
         }
+
+        Task<List<Profesor>> IService.GetAllProfesores()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
