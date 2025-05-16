@@ -9,7 +9,7 @@ namespace MvcTemplate;
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static async Task Main(string[] args) // ahora es async
     {
         var builder = WebApplication.CreateBuilder(args);
 
@@ -40,6 +40,13 @@ public class Program
 
         var app = builder.Build();
 
+        // Crear roles automáticamente
+        using (var scope = app.Services.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+            await CrearRolesAsync(services); // <--- llamada al método que vamos a definir abajo
+        }
+
         if (app.Environment.IsDevelopment())
         {
             app.UseMigrationsEndPoint();
@@ -61,6 +68,36 @@ public class Program
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
 
+        using (var scope = app.Services.CreateScope())
+        {
+            var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            string[] roles = { "Administrador", "Profesor", "Estudiante" };
+
+            foreach (var role in roles)
+            {
+                if (!await roleManager.RoleExistsAsync(role))
+                {
+                    await roleManager.CreateAsync(new IdentityRole(role));
+                }
+            }
+        }
+
         app.Run();
+    }
+
+    public static async Task CrearRolesAsync(IServiceProvider serviceProvider)
+    {
+        var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+
+        string[] roles = { "Administrador", "Profesor", "Estudiante" };
+
+        foreach (var rol in roles)
+        {
+            var existe = await roleManager.RoleExistsAsync(rol);
+            if (!existe)
+            {
+                await roleManager.CreateAsync(new IdentityRole(rol));
+            }
+        }
     }
 }

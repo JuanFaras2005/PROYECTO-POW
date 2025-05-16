@@ -2,13 +2,13 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MvcTemplate.Models;
+using System.Threading.Tasks;
 
 public class AccountController : Controller
 {
     private readonly UserManager<ApplicationUser> _userManager;
     private readonly SignInManager<ApplicationUser> _signInManager;
 
-    // Modifica el constructor para inyectar SignInManager
     public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
     {
         _userManager = userManager;
@@ -38,16 +38,14 @@ public class AccountController : Controller
 
             if (result.Succeeded)
             {
+                await _userManager.AddToRoleAsync(user, "Estudiante");
+                await _signInManager.SignInAsync(user, isPersistent: false);
+
                 TempData["SuccessMessage"] = "Usuario registrado exitosamente.";
                 return RedirectToAction("Index", "Home");
             }
-            else
-            {
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError(string.Empty, error.Description);
-                }
-            }
+            foreach (var error in result.Errors)
+                ModelState.AddModelError(string.Empty, error.Description);
         }
         return View(model);
     }
@@ -66,16 +64,26 @@ public class AccountController : Controller
             var user = await _userManager.FindByEmailAsync(model.Email);
             if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
             {
-                // Aquí usas el SignInManager para autenticar al usuario
                 var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");  // Redirigir a la página principal
+                    if (!await _userManager.IsInRoleAsync(user, "Estudiante"))
+                        await _userManager.AddToRoleAsync(user, "Estudiante");
+
+                    return RedirectToAction("Index", "Home");
                 }
             }
 
-            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            ModelState.AddModelError(string.Empty, "Intento de inicio de sesión no válido.");
         }
         return View(model);
     }
+
+    [HttpPost]
+    public async Task<IActionResult> Logout()
+    {
+        await _signInManager.SignOutAsync();
+        return RedirectToAction("Login", "Account");
+    }
 }
+

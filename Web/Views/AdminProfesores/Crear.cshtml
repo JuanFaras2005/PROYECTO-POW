@@ -1,4 +1,4 @@
-﻿@model MvcTemplate.Models.ProfesorViewModel
+﻿@model MvcTemplate.Models.ProfesorCrearViewModel
 
 @{
     ViewData["Title"] = "Agregar Profesor";
@@ -10,10 +10,17 @@
     <div asp-validation-summary="All" class="text-danger"></div>
 
     <div class="form-group">
-        <label asp-for="NombreCompleto"></label>
-        <input asp-for="NombreCompleto" class="form-control" />
-        <span asp-validation-for="NombreCompleto" class="text-danger"></span>
+        <label asp-for="Nombre"></label>
+        <input asp-for="Nombre" class="form-control" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
     </div>
+
+    <div class="form-group">
+        <label asp-for="Apellido"></label>
+        <input asp-for="Apellido" class="form-control" />
+        <span asp-validation-for="Apellido" class="text-danger"></span>
+    </div>
+
 
     <div class="form-group">
         <label asp-for="Email"></label>

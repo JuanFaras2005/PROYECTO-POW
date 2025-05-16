@@ -43,7 +43,7 @@ namespace MvcTemplate.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Crear(ProfesorViewModel model)
+        public async Task<IActionResult> Crear(ProfesorCrearViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -51,7 +51,9 @@ namespace MvcTemplate.Controllers
                 {
                     UserName = model.Email,
                     Email = model.Email,
-                    Nombre = model.NombreCompleto
+                    Nombre = model.Nombre,
+                    Apellido = model.Apellido
+
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);
@@ -67,7 +69,6 @@ namespace MvcTemplate.Controllers
                     return RedirectToAction("Index");
                 }
 
-                // Si falla, mostrar errores
                 foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError("", error.Description);
@@ -88,19 +89,19 @@ namespace MvcTemplate.Controllers
             if (usuario == null)
                 return NotFound();
 
-            var model = new ProfesorViewModel
+            var model = new ProfesorEditarViewModel
             {
                 Id = usuario.Id,
                 NombreCompleto = usuario.Nombre,
                 Email = usuario.Email
-                // No llenamos contraseña aquí (por seguridad)
+                // Password no se muestra
             };
 
             return View(model);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(ProfesorViewModel model)
+        public async Task<IActionResult> Editar(ProfesorEditarViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
@@ -122,7 +123,7 @@ namespace MvcTemplate.Controllers
                 return View(model);
             }
 
-            // Cambiar contraseña solo si se ingresó una nueva
+            // Si se ingresó una nueva contraseña
             if (!string.IsNullOrWhiteSpace(model.Password))
             {
                 var token = await _userManager.GeneratePasswordResetTokenAsync(usuario);
@@ -141,6 +142,8 @@ namespace MvcTemplate.Controllers
 
         // ELIMINAR
         [HttpPost]
+        [ValidateAntiForgeryToken]
+
         public async Task<IActionResult> Eliminar(string id)
         {
             if (string.IsNullOrEmpty(id))
