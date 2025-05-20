@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Domain.csproj": {}
+    "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Domain.csproj": {
+    "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\USUARIO-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USUARIO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

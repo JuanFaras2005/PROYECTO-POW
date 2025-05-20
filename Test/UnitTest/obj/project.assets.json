@@ -3935,23 +3935,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sofia\\.nuget\\packages\\": {},
+    "C:\\Users\\USUARIO-PC\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Test\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Test\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Test\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Test\\UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Test\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\USUARIO-PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Test\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USUARIO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3966,11 +3966,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Domain.csproj"
+            "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services.csproj"
+            "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Services\\Services.csproj"
             }
           }
         }
@@ -3985,7 +3985,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -4032,7 +4032,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,101 +17,101 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcTemplate
 build_property.RootNamespace = MvcTemplate
-build_property.ProjectDir = C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Web\
+build_property.ProjectDir = C:\Users\USUARIO-PC\Documents\Programming_Projects\PROYECTO-POW\Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\sofia\OneDrive\Escritorio\TRABAJO JUAN\MvcTemplate\MvcTemplate\Web
+build_property.MSBuildProjectDirectory = C:\Users\USUARIO-PC\Documents\Programming_Projects\PROYECTO-POW\Web
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Account/Login.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Account/Register.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/AdminProfesores/Crear.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/AdminProfesores/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9mZXNvcmVzXENyZWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/AdminProfesores/Editar.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/AdminProfesores/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9mZXNvcmVzXEVkaXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/AdminProfesores/Eliminar.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/AdminProfesores/Eliminar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9mZXNvcmVzXEVsaW1pbmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/AdminProfesores/Index.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/AdminProfesores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Qcm9mZXNvcmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Curso/Create.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Curso/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Curso/Delete.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Curso/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Curso/Details.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Curso/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Curso/Edit.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Curso/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Curso/Index.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Curso/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3Vyc29cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Home/Index.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Home/Privacy.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Milk/AddMilk.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Milk/AddMilk.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlsa1xBZGRNaWxrLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Milk/Index.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Milk/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWlsa1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Shared/Error.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/_ViewImports.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/_ViewStart.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/sofia/OneDrive/Escritorio/TRABAJO JUAN/MvcTemplate/MvcTemplate/Web/Views/Shared/_Layout.cshtml]
+[C:/Users/USUARIO-PC/Documents/Programming_Projects/PROYECTO-POW/Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-vzsiifcf4y
