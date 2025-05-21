@@ -14,10 +14,11 @@ namespace MvcTemplate.Models
         [EmailAddress(ErrorMessage = "El correo no es válido")]
         public string Email { get; set; }
 
-        // Para creación es obligatorio, para edición opcional (manejado en controlador)
         [DataType(DataType.Password)]
         [Display(Name = "Contraseña")]
         [Required(ErrorMessage = "La contraseña es obligatoria al crear", AllowEmptyStrings = false)]
         public string Password { get; set; }
+
+        public string Rol { get; set; } // Para mostrar el rol en la tabla
     }
 }

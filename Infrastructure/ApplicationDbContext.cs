@@ -17,20 +17,27 @@ namespace Infrastructure.Repositories
         public DbSet<Profesor> Profesores { get; set; }
         public DbSet<Estudiante> Estudiantes { get; set; }
 
+        public DbSet<Inscripcion> Inscripciones { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder); // ¡IMPORTANTE!
+            base.OnModelCreating(modelBuilder);
 
-            // Relación entre Curso y Profesor
             modelBuilder.Entity<Curso>()
                 .HasOne(c => c.Profesor)
                 .WithMany(p => p.Cursos)
                 .HasForeignKey(c => c.ProfesorId);
-        }
 
-        // Agregar la configuración de la cadena de conexión aquí
-       
-        
+            modelBuilder.Entity<Inscripcion>()
+                .HasOne(i => i.Curso)
+                .WithMany(c => c.Inscripciones)
+                .HasForeignKey(i => i.CursoId);
+
+            modelBuilder.Entity<Inscripcion>()
+                .HasOne(i => i.Estudiante)
+                .WithMany(e => e.Inscripciones)
+                .HasForeignKey(i => i.EstudianteId);
+        }
 
     }
 }

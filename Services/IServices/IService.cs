@@ -13,5 +13,7 @@ namespace Services.IServices
         Task EditarCurso(Curso curso);
         Task EliminarCurso(int id);
         Task<List<Profesor>> GetAllProfesores();
+        Task<bool> EstaInscrito(string estudianteId, int cursoId);
+        Task InscribirEstudiante(string estudianteId, int cursoId);
     }
 }

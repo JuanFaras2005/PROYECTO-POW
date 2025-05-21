@@ -152,6 +152,32 @@ namespace Infrastructure.Migrations
                     b.ToTable("Estudiantes");
                 });
 
+            modelBuilder.Entity("Domain.Inscripcion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CursoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EstudianteId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("FechaInscripcion")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CursoId");
+
+                    b.HasIndex("EstudianteId");
+
+                    b.ToTable("Inscripciones");
+                });
+
             modelBuilder.Entity("Domain.Milk", b =>
                 {
                     b.Property<Guid>("Id")
@@ -328,6 +354,25 @@ namespace Infrastructure.Migrations
                     b.Navigation("Profesor");
                 });
 
+            modelBuilder.Entity("Domain.Inscripcion", b =>
+                {
+                    b.HasOne("Domain.Curso", "Curso")
+                        .WithMany("Inscripciones")
+                        .HasForeignKey("CursoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Estudiante", "Estudiante")
+                        .WithMany("Inscripciones")
+                        .HasForeignKey("EstudianteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Curso");
+
+                    b.Navigation("Estudiante");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -377,6 +422,16 @@ namespace Infrastructure.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Curso", b =>
+                {
+                    b.Navigation("Inscripciones");
+                });
+
+            modelBuilder.Entity("Domain.Estudiante", b =>
+                {
+                    b.Navigation("Inscripciones");
                 });
 
             modelBuilder.Entity("Domain.Profesor", b =>

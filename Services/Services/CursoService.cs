@@ -66,5 +66,15 @@ namespace Services.Services
         {
             throw new NotImplementedException();
         }
+
+        public Task<bool> EstaInscrito(string estudianteId, int cursoId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task InscribirEstudiante(string estudianteId, int cursoId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

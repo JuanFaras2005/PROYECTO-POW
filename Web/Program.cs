@@ -1,4 +1,4 @@
-using Application;
+﻿using Application;
 using AutoMapper;
 using Domain;
 using Infrastructure.Repositories;
@@ -10,21 +10,17 @@ namespace MvcTemplate;
 
 public class Program
 {
-    public static async Task Main(string[] args) // ahora es async
+    public static async Task Main(string[] args)
     {
-
         var builder = WebApplication.CreateBuilder(args);
 
-        // Add services to the container.
         var mappingConfiguration = new MapperConfiguration(m => m.AddProfile(new MProfile()));
         IMapper mapper = mappingConfiguration.CreateMapper();
         builder.Services.AddSingleton(mapper);
 
-        // Register infrastructure and services
         builder.Services.AddInfrastructure(builder.Configuration);
         builder.Services.AddServices(builder.Configuration);
 
-        // Add Identity services with custom ApplicationUser
         builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
         {
             options.Password.RequireDigit = false;
@@ -37,24 +33,20 @@ public class Program
         .AddEntityFrameworkStores<ApplicationDbContext>()
         .AddDefaultTokenProviders();
 
-        // Add DbContext with connection string from appsettings.json
         builder.Services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-        // Add controllers with views support
         builder.Services.AddControllersWithViews();
 
         var app = builder.Build();
 
-        // Apply migrations at startup (if any)
         using (var scope = app.Services.CreateScope())
         {
             var services = scope.ServiceProvider;
             var dbContext = services.GetRequiredService<ApplicationDbContext>();
-            await dbContext.Database.MigrateAsync(); // <-- Applies pending migrations
+            await dbContext.Database.MigrateAsync();
 
-            // Create roles automatically
-            await CrearRolesAsync(services); // <--- llamada al m�todo que vamos a defiSystem.ArgumentException: 'Format of the initialization string does not conform to specification starting at index 0.'nir abajo
+            await CrearRolesYAdminAsync(services); // ✅ Llama solo una vez
         }
 
         if (app.Environment.IsDevelopment())
@@ -78,22 +70,44 @@ public class Program
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
 
-        app.Run();
+        app.Run(); // ⛔ NO pongas código después de esto
     }
 
-    // M�todo para crear roles
-    public static async Task CrearRolesAsync(IServiceProvider serviceProvider)
+    // ✅ Método único que crea roles y usuario admin
+    public static async Task CrearRolesYAdminAsync(IServiceProvider serviceProvider)
     {
         var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+        var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
-        string[] roles = { "Administrador", "Profesor", "Estudiante" };
+        string[] roles = { "Administrador", "Estudiante", "Docente" };
 
-        foreach (var rol in roles)
+        foreach (var role in roles)
         {
-            var existe = await roleManager.RoleExistsAsync(rol);
-            if (!existe)
+            if (!await roleManager.RoleExistsAsync(role))
             {
-                await roleManager.CreateAsync(new IdentityRole(rol));
+                await roleManager.CreateAsync(new IdentityRole(role));
+            }
+        }
+
+        string adminEmail = "admin@pow.com";
+        string adminPassword = "Admin123!";
+
+        var adminUser = await userManager.FindByEmailAsync(adminEmail);
+        if (adminUser == null)
+        {
+            var user = new ApplicationUser
+            {
+                UserName = adminEmail,
+                Email = adminEmail,
+                EmailConfirmed = true,
+                Nombre = "Admin",
+                Apellido = "Principal"
+            };
+
+            var result = await userManager.CreateAsync(user, adminPassword);
+            if (result.Succeeded)
+            {
+                await userManager.AddToRoleAsync(user, "Administrador");
             }
         }
     }

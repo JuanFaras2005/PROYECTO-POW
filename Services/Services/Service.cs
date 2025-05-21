@@ -58,6 +58,15 @@ namespace Services.Services
             return await Repository.GetAllProfesores();
         }
 
+        public Task<bool> EstaInscrito(string estudianteId, int cursoId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task InscribirEstudiante(string estudianteId, int cursoId)
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }

@@ -13,6 +13,7 @@
         <tr>
             <th>Nombre</th>
             <th>Correo</th>
+            <th>Rol</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -22,6 +23,7 @@
             <tr>
                 <td>@estudiante.Nombre</td>
                 <td>@estudiante.Email</td>
+                <td>@estudiante.Rol</td>
                 <td>
                     <a asp-action="Editar" asp-route-id="@estudiante.Id" class="btn btn-sm btn-warning">Editar</a>
                     <form asp-action="Eliminar" asp-route-id="@estudiante.Id" method="post" class="d-inline">

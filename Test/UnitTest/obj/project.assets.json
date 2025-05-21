@@ -4747,23 +4747,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO-PC\\.nuget\\packages\\": {},
+    "C:\\Users\\juani\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Test\\UnitTest\\UnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\juani\\PROYECTO-POW\\Test\\UnitTest\\UnitTest.csproj",
       "projectName": "UnitTest",
-      "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Test\\UnitTest\\UnitTest.csproj",
-      "packagesPath": "C:\\Users\\USUARIO-PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Test\\UnitTest\\obj\\",
+      "projectPath": "C:\\Users\\juani\\PROYECTO-POW\\Test\\UnitTest\\UnitTest.csproj",
+      "packagesPath": "C:\\Users\\juani\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\juani\\PROYECTO-POW\\Test\\UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\USUARIO-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\juani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4778,11 +4778,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj"
+            "C:\\Users\\juani\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\juani\\PROYECTO-POW\\Domain\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Services\\Services.csproj"
+            "C:\\Users\\juani\\PROYECTO-POW\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\juani\\PROYECTO-POW\\Services\\Services.csproj"
             }
           }
         }
@@ -4797,7 +4797,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -4848,7 +4848,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

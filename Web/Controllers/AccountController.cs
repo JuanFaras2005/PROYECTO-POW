@@ -67,9 +67,11 @@ public class AccountController : Controller
                 var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
                 if (result.Succeeded)
                 {
-                    if (!await _userManager.IsInRoleAsync(user, "Estudiante"))
+                    if (!await _userManager.IsInRoleAsync(user, "Estudiante") &&
+                        !await _userManager.IsInRoleAsync(user, "Administrador"))
+                    {
                         await _userManager.AddToRoleAsync(user, "Estudiante");
-
+                    }
                     return RedirectToAction("Index", "Home");
                 }
             }

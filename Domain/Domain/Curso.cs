@@ -17,5 +17,7 @@ namespace Domain
 
         public Profesor Profesor { get; set; }
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
+        public ICollection<Inscripcion> Inscripciones { get; set; } = new List<Inscripcion>();
+
     }
 }

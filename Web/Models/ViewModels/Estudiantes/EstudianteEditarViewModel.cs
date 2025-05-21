@@ -8,6 +8,9 @@ namespace MvcTemplate.Models.ViewModels.Estudiantes
 
         [Required]
         public string Nombre { get; set; }
+        
+        [Required]
+        public string Apellido { get; set; }
 
         [Required]
         [EmailAddress]

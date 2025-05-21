@@ -13,6 +13,7 @@ namespace Domain
         public string Apellido { get; set; }
         public string Email { get; set; }
         public DateTime FechaInscripcion { get; set; }
+        public ICollection<Inscripcion> Inscripciones { get; set; } = new List<Inscripcion>();
 
     }
 }

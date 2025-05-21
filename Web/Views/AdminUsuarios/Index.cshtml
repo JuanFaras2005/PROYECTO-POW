@@ -1,0 +1,31 @@
+﻿@model List<MvcTemplate.Models.ViewModels.AdminUsuarios.UsuarioConRolesViewModel>
+
+@{
+    ViewData["Title"] = "Gestión de Usuarios";
+}
+
+<h2>Gestión de Usuarios</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Email</td>
+                <td>
+                    @string.Join(", ", usuario.Roles)
+                </td>
+                <td>
+                    <a class="btn btn-primary btn-sm" asp-action="EditarRoles" asp-route-id="@usuario.Id">Editar Roles</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

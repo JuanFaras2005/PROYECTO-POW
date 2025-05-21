@@ -12,7 +12,8 @@ namespace Infrastructure.Repositories.IRepositories
 
         Task<List<Profesor>> GetAllProfesores();
 
-        Task AddCurso(Curso curso);         
-
+        Task AddCurso(Curso curso);
+        Task<bool> EstaInscrito(string estudianteId, int cursoId);
+        Task AgregarInscripcion(string estudianteId, int cursoId);
     }
 }

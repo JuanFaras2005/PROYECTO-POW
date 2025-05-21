@@ -15,6 +15,7 @@
         <tr>
             <th>Nombre</th>
             <th>Correo</th>
+            <th>Rol</th>
             <th>Acciones</th>
         </tr>
     </thead>
@@ -24,6 +25,7 @@
             <tr>
                 <td>@profesor.NombreCompleto</td>
                 <td>@profesor.Email</td>
+                <td>@profesor.Rol</td>
                 <td>
                     <a class="btn btn-primary btn-sm" asp-action="Editar" asp-route-id="@profesor.Id">Editar</a>
 
@@ -32,7 +34,6 @@
                         <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
                     </form>
                 </td>
-
             </tr>
         }
     </tbody>

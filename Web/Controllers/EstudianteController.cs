@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using MvcTemplate.Models.ViewModels.Estudiantes;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace POWApp.Controllers
 {
@@ -23,14 +24,22 @@ namespace POWApp.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+            // Trae todos los usuarios con rol Estudiante
             var estudiantes = await _userManager.GetUsersInRoleAsync("Estudiante");
 
-            var lista = estudiantes.Select(e => new EstudianteViewModel
+            var lista = new List<EstudianteViewModel>();
+
+            foreach (var e in estudiantes)
             {
-                Id = e.Id,
-                Nombre = e.Nombre + " " + e.Apellido,
-                Email = e.Email
-            }).ToList();
+                var roles = await _userManager.GetRolesAsync(e);
+                lista.Add(new EstudianteViewModel
+                {
+                    Id = e.Id,
+                    Nombre = e.Nombre + " " + e.Apellido,
+                    Email = e.Email,
+                    Rol = roles.FirstOrDefault() ?? "Sin rol"
+                });
+            }
 
             return View(lista);
         }
@@ -60,7 +69,6 @@ namespace POWApp.Controllers
 
             if (result.Succeeded)
             {
-                // Aseguramos que el rol "Estudiante" exista
                 if (!await _roleManager.RoleExistsAsync("Estudiante"))
                     await _roleManager.CreateAsync(new IdentityRole("Estudiante"));
 
@@ -118,7 +126,6 @@ namespace POWApp.Controllers
                 return View(model);
             }
 
-            // Cambiar contraseña si se ingresó una nueva
             if (!string.IsNullOrWhiteSpace(model.Password))
             {
                 var token = await _userManager.GeneratePasswordResetTokenAsync(estudiante);

@@ -19,7 +19,7 @@ namespace MvcTemplate.Controllers
             _roleManager = roleManager;
         }
 
-        // LISTADO
+        // LISTAR PROFESORES
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -28,14 +28,15 @@ namespace MvcTemplate.Controllers
             var lista = usuarios.Select(u => new ProfesorViewModel
             {
                 Id = u.Id,
-                NombreCompleto = u.Nombre,
-                Email = u.Email
+                NombreCompleto = u.Nombre + " " + u.Apellido,
+                Email = u.Email,
+                Rol = "Profesor"
             }).ToList();
 
             return View(lista);
         }
 
-        // CREAR
+        // CREAR PROFESOR
         [HttpGet]
         public IActionResult Crear()
         {
@@ -43,42 +44,38 @@ namespace MvcTemplate.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Crear(ProfesorCrearViewModel model)
+        public async Task<IActionResult> Crear(ProfesorViewModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
+                return View(model);
+
+            var user = new ApplicationUser
             {
-                var user = new ApplicationUser
-                {
-                    UserName = model.Email,
-                    Email = model.Email,
-                    Nombre = model.Nombre,
-                    Apellido = model.Apellido
+                UserName = model.Email,
+                Email = model.Email,
+                Nombre = model.NombreCompleto.Split(' ')[0],
+                Apellido = model.NombreCompleto.Contains(' ') ? model.NombreCompleto.Substring(model.NombreCompleto.IndexOf(' ') + 1) : ""
+            };
 
-                };
+            var result = await _userManager.CreateAsync(user, model.Password);
 
-                var result = await _userManager.CreateAsync(user, model.Password);
+            if (result.Succeeded)
+            {
+                if (!await _roleManager.RoleExistsAsync("Profesor"))
+                    await _roleManager.CreateAsync(new IdentityRole("Profesor"));
 
-                if (result.Succeeded)
-                {
-                    if (!await _roleManager.RoleExistsAsync("Profesor"))
-                    {
-                        await _roleManager.CreateAsync(new IdentityRole("Profesor"));
-                    }
+                await _userManager.AddToRoleAsync(user, "Profesor");
 
-                    await _userManager.AddToRoleAsync(user, "Profesor");
-                    return RedirectToAction("Index");
-                }
-
-                foreach (var error in result.Errors)
-                {
-                    ModelState.AddModelError("", error.Description);
-                }
+                return RedirectToAction("Index");
             }
+
+            foreach (var error in result.Errors)
+                ModelState.AddModelError("", error.Description);
 
             return View(model);
         }
 
-        // EDITAR
+        // EDITAR PROFESOR
         [HttpGet]
         public async Task<IActionResult> Editar(string id)
         {
@@ -89,19 +86,19 @@ namespace MvcTemplate.Controllers
             if (usuario == null)
                 return NotFound();
 
-            var model = new ProfesorEditarViewModel
+            var model = new ProfesorViewModel
             {
                 Id = usuario.Id,
-                NombreCompleto = usuario.Nombre,
+                NombreCompleto = usuario.Nombre + " " + usuario.Apellido,
                 Email = usuario.Email
-                // Password no se muestra
+                // No mostramos contraseña en edición
             };
 
             return View(model);
         }
 
         [HttpPost]
-        public async Task<IActionResult> Editar(ProfesorEditarViewModel model)
+        public async Task<IActionResult> Editar(ProfesorViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
@@ -110,7 +107,8 @@ namespace MvcTemplate.Controllers
             if (usuario == null)
                 return NotFound();
 
-            usuario.Nombre = model.NombreCompleto;
+            usuario.Nombre = model.NombreCompleto.Split(' ')[0];
+            usuario.Apellido = model.NombreCompleto.Contains(' ') ? model.NombreCompleto.Substring(model.NombreCompleto.IndexOf(' ') + 1) : "";
             usuario.Email = model.Email;
             usuario.UserName = model.Email;
 
@@ -123,7 +121,7 @@ namespace MvcTemplate.Controllers
                 return View(model);
             }
 
-            // Si se ingresó una nueva contraseña
+            // Cambiar contraseña si se ingresó nueva
             if (!string.IsNullOrWhiteSpace(model.Password))
             {
                 var token = await _userManager.GeneratePasswordResetTokenAsync(usuario);
@@ -140,10 +138,9 @@ namespace MvcTemplate.Controllers
             return RedirectToAction("Index");
         }
 
-        // ELIMINAR
+        // ELIMINAR PROFESOR
         [HttpPost]
         [ValidateAntiForgeryToken]
-
         public async Task<IActionResult> Eliminar(string id)
         {
             if (string.IsNullOrEmpty(id))

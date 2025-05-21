@@ -7,8 +7,6 @@ namespace Infrastructure.Repositories.Repositories
 {
     public class Repository : BaseRepository, IRepository
     {
-        // No necesitas declarar otra vez _context, ya viene en BaseRepository
-
         public Repository(ApplicationDbContext context) : base(context)
         {
         }
@@ -77,6 +75,16 @@ namespace Infrastructure.Repositories.Repositories
         public async Task<List<Profesor>> GetAllProfesores()
         {
             return await _context.Profesores.ToListAsync();
+        }
+
+        public Task<bool> EstaInscrito(string estudianteId, int cursoId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task AgregarInscripcion(string estudianteId, int cursoId)
+        {
+            throw new NotImplementedException();
         }
     }
 }
