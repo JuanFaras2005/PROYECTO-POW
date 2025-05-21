@@ -1,6 +1,6 @@
-﻿using Domain;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Domain;
 
 namespace Infrastructure.Repositories
 {
@@ -11,19 +11,25 @@ namespace Infrastructure.Repositories
         {
         }
 
+        // DbSets para tus entidades
         public DbSet<Milk> Milks { get; set; }
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Profesor> Profesores { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder); // <- ¡IMPORTANTE!
+            base.OnModelCreating(modelBuilder); // ¡IMPORTANTE!
 
-            // Relación Curso–Profesor (uno a muchos)
+            // Relación entre Curso y Profesor
             modelBuilder.Entity<Curso>()
                 .HasOne(c => c.Profesor)
                 .WithMany(p => p.Cursos)
                 .HasForeignKey(c => c.ProfesorId);
         }
+
+        // Agregar la configuración de la cadena de conexión aquí
+       
+        
+
     }
 }

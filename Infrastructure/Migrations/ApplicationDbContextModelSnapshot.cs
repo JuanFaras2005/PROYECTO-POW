@@ -114,7 +114,7 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ProfesorId")
+                    b.Property<int?>("ProfesorId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -295,9 +295,7 @@ namespace Infrastructure.Migrations
                 {
                     b.HasOne("Domain.Profesor", "Profesor")
                         .WithMany("Cursos")
-                        .HasForeignKey("ProfesorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ProfesorId");
 
                     b.Navigation("Profesor");
                 });
