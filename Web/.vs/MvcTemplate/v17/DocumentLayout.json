@@ -3,14 +3,102 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\viewmodels\\estudiantes\\estudianteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\viewmodels\\estudiantes\\estudianteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\profesoreditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\profesoreditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\profesorcrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\profesorcrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\profesorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\profesorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\adminprofesorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\adminprofesorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\milkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\milkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\domain\\domain\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\estudiantes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\estudiantes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\estudiantes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\estudiantes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\domain\\domain\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\viewmodels\\estudiantes\\estudianteeditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\viewmodels\\estudiantes\\estudianteeditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\viewmodels\\estudiantes\\estudiantecrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\viewmodels\\estudiantes\\estudiantecrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\domain\\domain\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\domain\\domain\\milk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\domain\\domain\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -23,51 +111,12 @@
       "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\infrastructure\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\adminprofesorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\adminprofesorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D431F70-CC73-41B4-AFAD-BB6056406D9E}|..\\Domain\\Domain\\Domain.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\domain\\domain\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\adminprofesores\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\adminprofesores\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\cursocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\estudiantes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\estudiantes\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\estudiantes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\estudiantes\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\estudiantes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\viewmodels\\estudiantes\\estudianteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\viewmodels\\estudiantes\\estudianteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\estudiantecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\viewmodels\\estudiantes\\estudianteeditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\viewmodels\\estudiantes\\estudianteeditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\viewmodels\\estudiantes\\estudiantecrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\viewmodels\\estudiantes\\estudiantecrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -78,14 +127,6 @@
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\profesorcrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\profesorcrearviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\adminprofesores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\adminprofesores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -94,20 +135,8 @@
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\profesoreditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\profesoreditarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\adminprofesores\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\adminprofesores\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\profesorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\profesorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\curso\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -122,16 +151,8 @@
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\curso\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\mvctemplate.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -140,10 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\web\\controllers\\milkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1CA8AC85-2F84-4566-8011-2CDF705469CF}|MvcTemplate.csproj|solutionrelative:controllers\\milkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -261,6 +278,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\infrastructure\\migrations\\20250520234237_addnombreapellidotoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C89F7701-1230-045D-AC93-AE7F7C59B668}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\usuario-pc\\documents\\programming_projects\\proyecto-pow\\infrastructure\\migrations\\20250521014756_addestudiantestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -270,7 +290,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 137,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 23,
           "Children": [
             {
               "$type": "Bookmark",
@@ -290,7 +310,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 14,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T02:12:07.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T01:56:48.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20250521014756_AddEstudiantesTable.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\Migrations\\20250521014756_AddEstudiantesTable.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250521014756_AddEstudiantesTable.cs",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\Migrations\\20250521014756_AddEstudiantesTable.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250521014756_AddEstudiantesTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T01:47:56.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Estudiante.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Estudiante.cs",
+              "RelativeToolTip": "..\\Domain\\Domain\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T01:36:37.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Milk.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Milk.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain\\Milk.cs",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Milk.cs",
+              "RelativeToolTip": "..\\Domain\\Domain\\Milk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T01:35:54.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Curso.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain\\Curso.cs",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Curso.cs",
+              "RelativeToolTip": "..\\Domain\\Domain\\Curso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T01:35:45.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
               "Title": "20250521000259_NombreDeTuMigracion.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\Migrations\\20250521000259_NombreDeTuMigracion.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250521000259_NombreDeTuMigracion.cs",
@@ -302,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 78,
               "Title": "20250520234237_AddNombreApellidoToApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\Migrations\\20250520234237_AddNombreApellidoToApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250520234237_AddNombreApellidoToApplicationUser.cs",
@@ -314,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 27,
               "Title": "20250514192402_AgregarProfesor.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\Migrations\\20250514192402_AgregarProfesor.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250514192402_AgregarProfesor.cs",
@@ -326,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -338,32 +430,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\ApplicationDbContext.cs*",
-              "RelativeToolTip": "..\\Infrastructure\\ApplicationDbContext.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T23:18:30.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T23:18:30.322Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "Profesor.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Profesor.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Domain\\Profesor.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\Profesor.cs",
               "RelativeToolTip": "..\\Domain\\Domain\\Profesor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T01:30:54.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Domain\\Domain\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Domain\\ApplicationUser.cs",
@@ -371,12 +462,11 @@
               "RelativeToolTip": "..\\Domain\\Domain\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T23:02:27.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T23:02:27.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Estudiantes\\Editar.cshtml",
               "RelativeDocumentMoniker": "Views\\Estudiantes\\Editar.cshtml",
@@ -388,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "Crear.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Estudiantes\\Crear.cshtml",
               "RelativeDocumentMoniker": "Views\\Estudiantes\\Crear.cshtml",
@@ -400,31 +490,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Estudiantes\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Estudiantes\\Index.cshtml",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Estudiantes\\Index.cshtml",
               "RelativeToolTip": "Views\\Estudiantes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T01:10:14.996Z"
+              "WhenOpened": "2025-05-20T01:10:14.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "EstudianteController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\EstudianteController.cs",
               "RelativeDocumentMoniker": "Controllers\\EstudianteController.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\EstudianteController.cs",
               "RelativeToolTip": "Controllers\\EstudianteController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAmwAMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T01:09:15.096Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "EstudianteEditarViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ViewModels\\Estudiantes\\EstudianteEditarViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\Estudiantes\\EstudianteEditarViewModel.cs",
@@ -436,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "EstudianteCrearViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ViewModels\\Estudiantes\\EstudianteCrearViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\Estudiantes\\EstudianteCrearViewModel.cs",
@@ -448,19 +539,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "EstudianteViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ViewModels\\Estudiantes\\EstudianteViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\Estudiantes\\EstudianteViewModel.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ViewModels\\Estudiantes\\EstudianteViewModel.cs",
               "RelativeToolTip": "Models\\ViewModels\\Estudiantes\\EstudianteViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T01:05:04.1Z"
+              "WhenOpened": "2025-05-20T01:05:04.1Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\AdminProfesores\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\AdminProfesores\\Index.cshtml",
@@ -472,32 +564,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AdminProfesoresController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\AdminProfesoresController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminProfesoresController.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\AdminProfesoresController.cs",
               "RelativeToolTip": "Controllers\\AdminProfesoresController.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T17:09:46.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCAAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAQwDUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T16:09:48.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T16:09:48.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 34,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -509,19 +600,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-14T15:23:07.958Z"
+              "WhenOpened": "2025-05-14T15:23:07.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "CursoController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\CursoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CursoController.cs",
@@ -533,31 +625,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 2,
               "Title": "ProfesorCrearViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ProfesorCrearViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ProfesorCrearViewModel.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ProfesorCrearViewModel.cs",
               "RelativeToolTip": "Models\\ProfesorCrearViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBIAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:04:33.508Z"
+              "WhenOpened": "2025-05-16T17:04:33.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T20:35:24.663Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "Crear.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\AdminProfesores\\Crear.cshtml",
               "RelativeDocumentMoniker": "Views\\AdminProfesores\\Crear.cshtml",
@@ -569,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 1,
               "Title": "ProfesorEditarViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ProfesorEditarViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ProfesorEditarViewModel.cs",
@@ -577,11 +670,12 @@
               "RelativeToolTip": "Models\\ProfesorEditarViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:05:00.941Z"
+              "WhenOpened": "2025-05-16T17:05:00.941Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 67,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\ApplicationUser.cs",
@@ -592,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "Editar.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\AdminProfesores\\Editar.cshtml",
               "RelativeDocumentMoniker": "Views\\AdminProfesores\\Editar.cshtml",
@@ -604,19 +698,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 3,
               "Title": "ProfesorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ProfesorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ProfesorViewModel.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\ProfesorViewModel.cs",
               "RelativeToolTip": "Models\\ProfesorViewModel.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBAAAABYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T16:56:18.531Z"
+              "WhenOpened": "2025-05-16T16:56:18.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -628,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 68,
               "Title": "Curso.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Curso.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Curso.cs",
@@ -639,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Curso\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Curso\\Index.cshtml",
@@ -651,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 69,
               "Title": "Service.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\Service.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\Service.cs",
@@ -662,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 70,
               "Title": "Profesor.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Profesor.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Domain\\Domain\\Profesor.cs",
@@ -673,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Curso\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Curso\\Details.cshtml",
@@ -685,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 71,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
@@ -696,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Curso\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Curso\\Create.cshtml",
@@ -708,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 72,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
@@ -719,7 +814,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 73,
               "Title": "CursoService.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\CursoService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\Services\\CursoService.cs",
@@ -730,7 +825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 74,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\IServices\\IService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Services\\IServices\\IService.cs",
@@ -741,7 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
@@ -752,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -764,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -776,19 +871,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 10,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBQwBIAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T22:50:47.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 31,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
@@ -800,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 15,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "Models\\LoginViewModel.cs",
@@ -812,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 32,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
@@ -824,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -836,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 76,
               "Title": "20250514044701_CreateIdentityTables.cs",
               "DocumentMoniker": "C:\\Users\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Migrations\\20250514044701_CreateIdentityTables.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\sofia\\OneDrive\\Escritorio\\TRABAJO JUAN\\MvcTemplate\\MvcTemplate\\Infrastructure\\Migrations\\20250514044701_CreateIdentityTables.cs",
@@ -847,7 +942,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "MvcTemplate.csproj",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\MvcTemplate.csproj",
               "RelativeDocumentMoniker": "MvcTemplate.csproj",
@@ -859,19 +954,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 9,
               "Title": "MilkController.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\MilkController.cs",
               "RelativeDocumentMoniker": "Controllers\\MilkController.cs",
               "ToolTip": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Controllers\\MilkController.cs",
               "RelativeToolTip": "Controllers\\MilkController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T19:43:16.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "Microsoft.NET.Sdk.StaticWebAssets.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\9.0.300\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.targets",
@@ -882,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "MProfile.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Common\\MProfile.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Common\\MProfile.cs",
@@ -891,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -903,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "Service.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services\\Service.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services\\Service.cs",
@@ -912,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "MilkTest.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\DomainTest\\MilkTest.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\DomainTest\\MilkTest.cs",
@@ -921,7 +1016,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "ServiceTest.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\ServicesTest\\ServiceTest.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Test\\UnitTest\\ServicesTest\\ServiceTest.cs",
@@ -930,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -942,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "MilkModels.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Dtos\\MilkModels.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Dtos\\MilkModels.cs",
@@ -951,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "AddMilk.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Milk\\AddMilk.cshtml",
               "RelativeDocumentMoniker": "Views\\Milk\\AddMilk.cshtml",
@@ -963,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "IService.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\IServices\\IService.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\IServices\\IService.cs",
@@ -972,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Milk\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Milk\\Index.cshtml",
@@ -984,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -996,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "20250413182217_InitialCreate.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250413182217_InitialCreate.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250413182217_InitialCreate.cs",
@@ -1005,7 +1100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "20250415212053_003.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250415212053_003.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\20250415212053_003.cs",
@@ -1014,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\Repositories\\Repository.cs",
@@ -1023,7 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\BaseRepository.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\BaseRepository.cs",
@@ -1032,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\BaseEntity.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\BaseEntity.cs",
@@ -1041,7 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "Milk.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\Milk.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Domain\\Domain\\Milk.cs",
@@ -1050,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Repositories\\IRepositories\\IRepository.cs",
@@ -1059,7 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 62,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\ApplicationDbContext.cs",
@@ -1068,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 63,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\DependencyInjection.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\DependencyInjection.cs",
@@ -1077,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 64,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\DependencyInjection.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\DependencyInjection.cs",
@@ -1086,7 +1181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\USUARIO-PC\\Documents\\Programming_Projects\\PROYECTO-POW\\Web\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -1098,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 65,
               "Title": "ApplicationDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Infrastructure\\Migrations\\ApplicationDbContextModelSnapshot.cs",
@@ -1107,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 66,
               "Title": "Services.csproj",
               "DocumentMoniker": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services.csproj",
               "ToolTip": "D:\\repos\\UsacaRepos\\ProgramasCSrharp\\MvcTemplate\\Services\\Services.csproj",

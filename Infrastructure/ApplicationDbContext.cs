@@ -15,6 +15,7 @@ namespace Infrastructure.Repositories
         public DbSet<Milk> Milks { get; set; }
         public DbSet<Curso> Cursos { get; set; }
         public DbSet<Profesor> Profesores { get; set; }
+        public DbSet<Estudiante> Estudiantes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
