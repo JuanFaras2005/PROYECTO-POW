@@ -3,6 +3,9 @@ using Domain;
 using Infrastructure.Repositories.IRepositories;
 using Services.Dtos;
 using Services.IServices;
+using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Services.Services
 {
@@ -10,11 +13,13 @@ namespace Services.Services
     {
         private IRepository Repository { get; set; }
         private IMapper Mapper { get; set; }
+        private UserManager<ApplicationUser> _userManager;
 
-        public Service(IRepository repository, IMapper mapper)
+        public Service(IRepository repository, IMapper mapper, UserManager<ApplicationUser> userManager)
         {
             Repository = repository;
             Mapper = mapper;
+            _userManager = userManager;
         }
 
         public async Task<List<MilkModel>> GetAllMilks()
@@ -30,17 +35,17 @@ namespace Services.Services
 
         public async Task<IList<Curso>> GetAllCourses()
         {
-            return await Repository.GetAllCursos(); 
+            return await Repository.GetAllCursos();
         }
 
         public async Task<Curso> GetCursoPorId(int id)
         {
-            return await Repository.GetCursoPorId(id);  
+            return await Repository.GetCursoPorId(id);
         }
 
         public async Task CrearCurso(Curso curso)
         {
-            await Repository.AddCurso(curso);  
+            await Repository.AddCurso(curso);
         }
 
         public Task EditarCurso(Curso curso)
@@ -52,10 +57,10 @@ namespace Services.Services
         {
             throw new NotImplementedException();
         }
-
-        public async Task<List<Profesor>> GetAllProfesores()
+        public async Task<List<ApplicationUser>> GetAllProfesores()
         {
-            return await Repository.GetAllProfesores();
+            var profesores = await _userManager.GetUsersInRoleAsync("Profesor");
+            return profesores.ToList();
         }
 
         public Task<bool> EstaInscrito(string estudianteId, int cursoId)
@@ -68,5 +73,4 @@ namespace Services.Services
             throw new NotImplementedException();
         }
     }
-
 }

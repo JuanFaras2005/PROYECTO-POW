@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain
 {
@@ -15,5 +16,10 @@ namespace Domain
 
         [Required]
         public string Apellido { get; set; }
+
+        public ICollection<Curso> Cursos { get; set; }
+
+        [NotMapped]
+        public string NombreCompleto => $"{Nombre} {Apellido}";
     }
 }

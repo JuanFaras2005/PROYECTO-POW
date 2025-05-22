@@ -1,13 +1,15 @@
 ﻿using Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MvcTemplate.Models.ViewModels.Estudiantes;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 
 namespace POWApp.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class EstudiantesController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -20,11 +22,9 @@ namespace POWApp.Controllers
             _roleManager = roleManager;
         }
 
-        // LISTAR ESTUDIANTES
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            // Trae todos los usuarios con rol Estudiante
             var estudiantes = await _userManager.GetUsersInRoleAsync("Estudiante");
 
             var lista = new List<EstudianteViewModel>();
@@ -44,7 +44,6 @@ namespace POWApp.Controllers
             return View(lista);
         }
 
-        // CREAR ESTUDIANTE
         [HttpGet]
         public IActionResult Crear()
         {
@@ -82,7 +81,6 @@ namespace POWApp.Controllers
             return View(model);
         }
 
-        // EDITAR ESTUDIANTE
         [HttpGet]
         public async Task<IActionResult> Editar(string id)
         {
@@ -142,7 +140,6 @@ namespace POWApp.Controllers
             return RedirectToAction("Index");
         }
 
-        // ELIMINAR ESTUDIANTE
         [HttpPost]
         public async Task<IActionResult> Eliminar(string id)
         {

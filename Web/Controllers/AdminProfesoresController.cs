@@ -1,4 +1,5 @@
 ﻿using Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MvcTemplate.Models;
@@ -7,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace MvcTemplate.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class AdminProfesoresController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
@@ -19,7 +21,6 @@ namespace MvcTemplate.Controllers
             _roleManager = roleManager;
         }
 
-        // LISTAR PROFESORES
         [HttpGet]
         public async Task<IActionResult> Index()
         {
@@ -36,7 +37,6 @@ namespace MvcTemplate.Controllers
             return View(lista);
         }
 
-        // CREAR PROFESOR
         [HttpGet]
         public IActionResult Crear()
         {
@@ -75,7 +75,6 @@ namespace MvcTemplate.Controllers
             return View(model);
         }
 
-        // EDITAR PROFESOR
         [HttpGet]
         public async Task<IActionResult> Editar(string id)
         {
@@ -121,7 +120,6 @@ namespace MvcTemplate.Controllers
                 return View(model);
             }
 
-            // Cambiar contraseña si se ingresó nueva
             if (!string.IsNullOrWhiteSpace(model.Password))
             {
                 var token = await _userManager.GeneratePasswordResetTokenAsync(usuario);
@@ -138,7 +136,6 @@ namespace MvcTemplate.Controllers
             return RedirectToAction("Index");
         }
 
-        // ELIMINAR PROFESOR
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Eliminar(string id)

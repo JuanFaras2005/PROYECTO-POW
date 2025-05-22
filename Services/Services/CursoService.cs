@@ -1,18 +1,25 @@
 ﻿using Domain;
 using Infrastructure.Repositories;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Services.Dtos;
 using Services.IServices;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Services.Services
 {
     public class CursoService : IService
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public CursoService(ApplicationDbContext context)
+        // Inyecta UserManager en el constructor
+        public CursoService(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         public async Task<IList<Curso>> GetAllCourses()
@@ -47,34 +54,32 @@ namespace Services.Services
             }
         }
 
-        public async Task AddMilk(int v, DateTime now)
+        // Implementación para obtener todos los profesores (usuarios con rol Profesor)
+        public async Task<List<ApplicationUser>> GetAllProfesores()
         {
-            throw new NotImplementedException();
+            var profesores = await _userManager.GetUsersInRoleAsync("Profesor");
+            return profesores.ToList();
         }
 
-        public async Task<List<MilkModel>> GetAllMilks()
+        // Métodos no implementados (puedes implementar o quitar si no usas)
+        public Task AddMilk(int v, System.DateTime now)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
-        public Task<dynamic> GetAllProfesores()
+        public Task<List<MilkModel>> GetAllMilks()
         {
-            throw new NotImplementedException();
-        }
-
-        Task<List<Profesor>> IService.GetAllProfesores()
-        {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         public Task<bool> EstaInscrito(string estudianteId, int cursoId)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
 
         public Task InscribirEstudiante(string estudianteId, int cursoId)
         {
-            throw new NotImplementedException();
+            throw new System.NotImplementedException();
         }
     }
 }

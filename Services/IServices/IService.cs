@@ -1,5 +1,8 @@
 ﻿using Domain;
 using Services.Dtos;
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Services.IServices
 {
@@ -12,7 +15,9 @@ namespace Services.IServices
         Task<Curso> GetCursoPorId(int id);
         Task EditarCurso(Curso curso);
         Task EliminarCurso(int id);
-        Task<List<Profesor>> GetAllProfesores();
+
+        Task<List<ApplicationUser>> GetAllProfesores();
+
         Task<bool> EstaInscrito(string estudianteId, int cursoId);
         Task InscribirEstudiante(string estudianteId, int cursoId);
     }

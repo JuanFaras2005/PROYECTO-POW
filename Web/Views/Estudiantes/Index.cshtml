@@ -6,7 +6,10 @@
 
 <h2> Estudiantes</h2>
 
-<a asp-action="Crear" class="btn btn-primary mb-3">Nuevo estudiante</a>
+@if (User.IsInRole("Administrador"))
+{
+    <a asp-action="Crear" class="btn btn-primary mb-3">Nuevo estudiante</a>
+}
 
 <table class="table table-striped">
     <thead>
@@ -14,7 +17,7 @@
             <th>Nombre</th>
             <th>Correo</th>
             <th>Rol</th>
-            <th>Acciones</th>
+            @{ if (User.IsInRole("Administrador")) { <th>Acciones</th>; } }
         </tr>
     </thead>
     <tbody>
@@ -24,12 +27,18 @@
                 <td>@estudiante.Nombre</td>
                 <td>@estudiante.Email</td>
                 <td>@estudiante.Rol</td>
-                <td>
-                    <a asp-action="Editar" asp-route-id="@estudiante.Id" class="btn btn-sm btn-warning">Editar</a>
-                    <form asp-action="Eliminar" asp-route-id="@estudiante.Id" method="post" class="d-inline">
-                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('¿Eliminar este estudiante?')">Eliminar</button>
-                    </form>
-                </td>
+                @{
+                    if (User.IsInRole("Administrador"))
+                    {
+                        <td>
+                            <a asp-action="Editar" asp-route-id="@estudiante.Id" class="btn btn-sm btn-warning">Editar</a>
+                            <form asp-action="Eliminar" asp-route-id="@estudiante.Id" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('¿Eliminar este estudiante?')">Eliminar</button>
+                            </form>
+                        </td>
+                    }
+
+                }
             </tr>
         }
     </tbody>

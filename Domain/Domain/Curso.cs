@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Domain
@@ -13,11 +14,13 @@ namespace Domain
 
         public string Descripcion { get; set; }
 
-        public int? ProfesorId { get; set; } 
+        [Required(ErrorMessage = "El profesor es obligatorio.")]
+        public string ProfesorId { get; set; }
 
-        public Profesor Profesor { get; set; }
+        public ApplicationUser Profesor { get; set; }
+
         public DateTime FechaCreacion { get; set; } = DateTime.Now;
-        public ICollection<Inscripcion> Inscripciones { get; set; } = new List<Inscripcion>();
 
+        public ICollection<Inscripcion> Inscripciones { get; set; } = new List<Inscripcion>();
     }
 }

@@ -46,7 +46,7 @@ public class Program
             var dbContext = services.GetRequiredService<ApplicationDbContext>();
             await dbContext.Database.MigrateAsync();
 
-            await CrearRolesYAdminAsync(services); // ✅ Llama solo una vez
+            await CrearRolesYAdminAsync(services); 
         }
 
         if (app.Environment.IsDevelopment())
@@ -70,16 +70,15 @@ public class Program
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
 
-        app.Run(); // ⛔ NO pongas código después de esto
+        app.Run(); 
     }
 
-    // ✅ Método único que crea roles y usuario admin
     public static async Task CrearRolesYAdminAsync(IServiceProvider serviceProvider)
     {
         var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
         var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
 
-        string[] roles = { "Administrador", "Estudiante", "Docente" };
+        string[] roles = { "Administrador", "Estudiante", "Profesor" };
 
         foreach (var role in roles)
         {

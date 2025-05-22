@@ -10,6 +10,13 @@
     var userId = UserManager.GetUserId(User);
 }
 
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Mensaje"]
+    </div>
+}
+
 <h1>@ViewData["Title"]</h1>
 
 @if (SignInManager.IsSignedIn(User))
@@ -18,15 +25,15 @@
 
     @if (User.IsInRole("Administrador"))
     {
-        <button class="btn btn-danger">Botón de Administrador</button>
+        <p class="alert alert-danger">Estás conectado como Administrador</p>
     }
     else if (User.IsInRole("Profesor"))
     {
-        <button class="btn btn-primary">Botón de Profesor</button>
+        <p class="alert alert-primary">Estás conectado como Profesor</p>
     }
     else if (User.IsInRole("Estudiante"))
     {
-        <button class="btn btn-success">Botón de Estudiante</button>
+        <p class="alert alert-success">Estás conectado como estudiante</p>
     }
 }
 else

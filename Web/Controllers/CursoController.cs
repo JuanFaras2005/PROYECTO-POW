@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Services.Dtos;
 using Services.IServices;
+using System.Linq;
 
 namespace MvcTemplate.Controllers
 {
@@ -47,15 +48,24 @@ namespace MvcTemplate.Controllers
         [Authorize(Roles = "Administrador,Profesor")]
         public async Task<IActionResult> Create(Curso curso)
         {
-            if (ModelState.IsValid)
+            Console.WriteLine("ProfesorId recibido: " + curso.ProfesorId);
+
+            if (!ModelState.IsValid || string.IsNullOrEmpty(curso.ProfesorId))
             {
-                await Service.CrearCurso(curso);
-                return RedirectToAction(nameof(Index));
+                if (string.IsNullOrEmpty(curso.ProfesorId))
+                {
+                    ModelState.AddModelError("ProfesorId", "Debe seleccionar un profesor.");
+                }
+
+                var profesores = await Service.GetAllProfesores();
+                ViewBag.Profesores = new SelectList(profesores, "Id", "NombreCompleto");
+
+                return View(curso);
             }
 
-            var profesores = await Service.GetAllProfesores();
-            ViewBag.Profesores = new SelectList(profesores, "Id", "NombreCompleto");
-            return View(curso);
+            curso.FechaCreacion = DateTime.Now;
+            await Service.CrearCurso(curso);
+            return RedirectToAction(nameof(Index));
         }
 
         [Authorize(Roles = "Administrador,Profesor")]
@@ -75,15 +85,15 @@ namespace MvcTemplate.Controllers
         [Authorize(Roles = "Administrador,Profesor")]
         public async Task<IActionResult> Edit(Curso curso)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                await Service.EditarCurso(curso);
-                return RedirectToAction(nameof(Index));
+                var profesores = await Service.GetAllProfesores();
+                ViewBag.Profesores = new SelectList(profesores, "Id", "NombreCompleto");
+                return View(curso);
             }
 
-            var profesores = await Service.GetAllProfesores();
-            ViewBag.Profesores = new SelectList(profesores, "Id", "NombreCompleto");
-            return View(curso);
+            await Service.EditarCurso(curso);
+            return RedirectToAction(nameof(Index));
         }
 
         [Authorize(Roles = "Administrador,Profesor")]
@@ -104,16 +114,23 @@ namespace MvcTemplate.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        // Inscripción por estudiante
+        // Inscripción por estudiante (POST para seguridad)
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         [Authorize(Roles = "Estudiante")]
-        public async Task<IActionResult> Inscribirse(int id)
+        public async Task<IActionResult> Inscribirse(int cursoId)
         {
             var userId = UserManager.GetUserId(User);
-            bool yaInscrito = await Service.EstaInscrito(userId, id);
+            bool yaInscrito = await Service.EstaInscrito(userId, cursoId);
 
             if (!yaInscrito)
             {
-                await Service.InscribirEstudiante(userId, id);
+                await Service.InscribirEstudiante(userId, cursoId);
+                TempData["Mensaje"] = "Inscripción realizada correctamente.";
+            }
+            else
+            {
+                TempData["Mensaje"] = "Ya estás inscrito en este curso.";
             }
 
             return RedirectToAction(nameof(Index));

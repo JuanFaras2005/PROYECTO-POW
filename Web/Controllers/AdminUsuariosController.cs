@@ -54,7 +54,13 @@ namespace MvcTemplate.Controllers
             var usuario = await _userManager.FindByIdAsync(id);
             if (usuario == null) return NotFound();
 
-            var roles = _roleManager.Roles.Select(r => r.Name).ToList();
+            var rolesPermitidos = new List<string> { "Estudiante", "Profesor", "Administrador" };
+
+            var roles = _roleManager.Roles
+                .Where(r => rolesPermitidos.Contains(r.Name))
+                .Select(r => r.Name)
+                .ToList();
+
             var rolesUsuario = await _userManager.GetRolesAsync(usuario);
 
             var modelo = new EditarRolesViewModel
@@ -70,6 +76,7 @@ namespace MvcTemplate.Controllers
 
             return View(modelo);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> EditarRoles(EditarRolesViewModel modelo)
