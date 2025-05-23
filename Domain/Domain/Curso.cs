@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain
 {
@@ -17,6 +18,7 @@ namespace Domain
         [Required(ErrorMessage = "El profesor es obligatorio.")]
         public string ProfesorId { get; set; }
 
+        [ForeignKey("ProfesorId")]
         public ApplicationUser Profesor { get; set; }
 
         public DateTime FechaCreacion { get; set; } = DateTime.Now;

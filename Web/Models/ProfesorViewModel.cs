@@ -13,10 +13,9 @@ namespace MvcTemplate.Models
         [Required(ErrorMessage = "El correo es obligatorio")]
         [EmailAddress(ErrorMessage = "El correo no es válido")]
         public string Email { get; set; }
-
+        
         [DataType(DataType.Password)]
-        [Display(Name = "Contraseña")]
-        [Required(ErrorMessage = "La contraseña es obligatoria al crear", AllowEmptyStrings = false)]
+        [Display(Name = "Contraseña (solo si desea cambiarla)")]
         public string Password { get; set; }
 
         public string Rol { get; set; } // Para mostrar el rol en la tabla

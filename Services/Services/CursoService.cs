@@ -24,18 +24,26 @@ namespace Services.Services
 
         public async Task<IList<Curso>> GetAllCourses()
         {
-            return await _context.Cursos.ToListAsync();
+            return await _context.Cursos.Include(c => c.Profesor).ToListAsync();
         }
 
         public async Task<Curso> GetCursoPorId(int id)
         {
-            return await _context.Cursos.FindAsync(id);
+            return await _context.Cursos.Include(c => c.Profesor).FirstOrDefaultAsync(c => c.Id == id);
         }
 
         public async Task CrearCurso(Curso curso)
         {
-            _context.Cursos.Add(curso);
-            await _context.SaveChangesAsync();
+            try
+            {
+                _context.Cursos.Add(curso);
+                await _context.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error guardando curso: " + ex.Message);
+                throw;
+            }
         }
 
         public async Task EditarCurso(Curso curso)

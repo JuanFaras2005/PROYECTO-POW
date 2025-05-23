@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using Domain;
+using Infrastructure.Repositories;
 using Infrastructure.Repositories.IRepositories;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Services.Dtos;
 using Services.IServices;
-using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -11,17 +13,18 @@ namespace Services.Services
 {
     public class Service : IService
     {
-        private IRepository Repository { get; set; }
-        private IMapper Mapper { get; set; }
-        private UserManager<ApplicationUser> _userManager;
+        private readonly IRepository Repository;
+        private readonly IMapper Mapper;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ApplicationDbContext _context;
 
-        public Service(IRepository repository, IMapper mapper, UserManager<ApplicationUser> userManager)
+        public Service(IRepository repository, IMapper mapper, UserManager<ApplicationUser> userManager, ApplicationDbContext context)
         {
             Repository = repository;
             Mapper = mapper;
             _userManager = userManager;
+            _context = context;
         }
-
         public async Task<List<MilkModel>> GetAllMilks()
         {
             return Mapper.Map<List<MilkModel>>(await Repository.GetAllMilks());
@@ -57,10 +60,26 @@ namespace Services.Services
         {
             throw new NotImplementedException();
         }
+
         public async Task<List<ApplicationUser>> GetAllProfesores()
         {
-            var profesores = await _userManager.GetUsersInRoleAsync("Profesor");
-            return profesores.ToList();
+            var users = await _userManager.Users.ToListAsync();
+            var profesores = new List<ApplicationUser>();
+
+            foreach (var user in users)
+            {
+                if (await _userManager.IsInRoleAsync(user, "Profesor"))
+                {
+                    profesores.Add(new ApplicationUser
+                    {
+                        Id = user.Id,
+                        Nombre = user.Nombre,
+                        Apellido = user.Apellido
+                    });
+                }
+            }
+
+            return profesores;
         }
 
         public Task<bool> EstaInscrito(string estudianteId, int cursoId)

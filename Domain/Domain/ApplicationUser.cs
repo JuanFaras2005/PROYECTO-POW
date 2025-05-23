@@ -17,7 +17,7 @@ namespace Domain
         [Required]
         public string Apellido { get; set; }
 
-        public ICollection<Curso> Cursos { get; set; }
+        public ICollection<Curso> Cursos { get; set; } = new List<Curso>();
 
         [NotMapped]
         public string NombreCompleto => $"{Nombre} {Apellido}";
