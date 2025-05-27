@@ -1,0 +1,45 @@
+﻿@model List<MvcTemplate.Models.ViewModels.Estudiantes.EstudianteViewModel>
+
+@{
+    ViewData["Title"] = "Estudiantes";
+}
+
+<h2> Estudiantes</h2>
+
+@if (User.IsInRole("Administrador"))
+{
+    <a asp-action="Crear" class="btn btn-primary mb-3">Nuevo estudiante</a>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Rol</th>
+            @{ if (User.IsInRole("Administrador")) { <th>Acciones</th>; } }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var estudiante in Model)
+        {
+            <tr>
+                <td>@estudiante.Nombre</td>
+                <td>@estudiante.Email</td>
+                <td>@estudiante.Rol</td>
+                @{
+                    if (User.IsInRole("Administrador"))
+                    {
+                        <td>
+                            <a asp-action="Editar" asp-route-id="@estudiante.Id" class="btn btn-sm btn-warning">Editar</a>
+                            <form asp-action="Eliminar" asp-route-id="@estudiante.Id" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('¿Eliminar este estudiante?')">Eliminar</button>
+                            </form>
+                        </td>
+                    }
+
+                }
+            </tr>
+        }
+    </tbody>
+</table>

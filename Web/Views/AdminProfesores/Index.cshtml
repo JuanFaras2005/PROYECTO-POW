@@ -1,0 +1,48 @@
+﻿@model List<MvcTemplate.Models.ProfesorViewModel>
+
+@{
+    ViewData["Title"] = "Profesores";
+}
+
+<h2>Lista de Profesores</h2>
+
+@if (User.IsInRole("Administrador"))
+{
+    <p>
+        <a class="btn btn-primary" asp-action="Crear">Agregar nuevo profesor</a>
+    </p>
+}
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Rol</th>
+            @{ if (User.IsInRole("Administrador")) { <th>Acciones</th>; } }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var profesor in Model)
+        {
+            <tr>
+                <td>@profesor.NombreCompleto</td>
+                <td>@profesor.Email</td>
+                <td>@profesor.Rol</td>
+                @{
+                    if (User.IsInRole("Administrador"))
+                    {
+                        <td>
+                            <a class="btn btn-primary btn-sm" asp-action="Editar" asp-route-id="@profesor.Id">Editar</a>
+                            <form asp-action="Eliminar" asp-route-id="@profesor.Id" method="post" style="display:inline;" onsubmit="return confirm('¿Seguro que quieres eliminar?');">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
+                            </form>
+                        </td>
+                    }
+
+                }
+            </tr>
+        }
+    </tbody>
+</table>

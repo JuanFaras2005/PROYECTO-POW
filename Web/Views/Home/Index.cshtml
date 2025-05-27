@@ -1,0 +1,15 @@
+﻿@using Services.Dtos
+@{
+    ViewData["Title"] = "Colegio Page";
+}
+
+<div class="text-center">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+    <h2>Bienvenido a la página principal</h2>
+</div>

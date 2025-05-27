@@ -1,0 +1,31 @@
+﻿@using Domain 
+
+@model Domain.Curso
+
+@{
+    ViewData["Title"] = "Eliminar Curso";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>¿Estás seguro de que deseas eliminar el curso?</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Eliminar" class="btn btn-danger" />
+                <a class="btn btn-secondary" asp-action="Index" asp-controller="Curso">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,62 @@
+﻿@using Domain
+
+@model MvcTemplate.Models.ViewModels.Curso.CursoCrearViewModel
+
+@{
+    ViewData["Title"] = "Crear Nuevo Curso";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h4>Curso</h4>
+<hr />
+
+@if (ViewBag.Errores != null && ((List<string>)ViewBag.Errores).Count > 0)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in (List<string>)ViewBag.Errores)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProfesorId" class="control-label"></label>
+                <select asp-for="ProfesorId" class="form-control" asp-items="ViewBag.Profesores">
+                    <option value="">-- Seleccione un profesor --</option>
+                </select>
+                <span asp-validation-for="ProfesorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="@Url.Action("Index", "Curso")">Volver a la lista</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,87 @@
+﻿@using Domain
+@model List<Curso>
+@using Microsoft.AspNetCore.Identity
+@using Services.Dtos
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
+
+@{
+    ViewData["Title"] = "Lista de Cursos";
+    var userId = UserManager.GetUserId(User);
+}
+
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Mensaje"]
+    </div>
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <p>Has iniciado sesión como: <strong>@User.Identity.Name</strong></p>
+
+    @if (User.IsInRole("Administrador"))
+    {
+        <p class="alert alert-danger">Estás conectado como Administrador</p>
+    }
+    else if (User.IsInRole("Profesor"))
+    {
+        <p class="alert alert-primary">Estás conectado como Profesor</p>
+    }
+    else if (User.IsInRole("Estudiante"))
+    {
+        <p class="alert alert-success">Estás conectado como estudiante</p>
+    }
+}
+else
+{
+    <p>No has iniciado sesión.</p>
+}
+
+@if (User.IsInRole("Administrador") || User.IsInRole("Profesor"))
+{
+    <p>
+        <a class="btn btn-primary" asp-controller="Curso" asp-action="Create">Agregar Nuevo Curso</a>
+    </p>
+}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nombre</td>
+                <td>@item.Descripcion</td>
+                <td>
+                    @if (User.IsInRole("Administrador") || User.IsInRole("Profesor"))
+                    {
+                        <a class="btn btn-sm btn-warning" asp-controller="Curso" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a class="btn btn-sm btn-danger" asp-controller="Curso" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                    }
+
+                    <a class="btn btn-sm btn-info" asp-controller="Curso" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+
+                    @if (User.IsInRole("Estudiante"))
+                    {
+                        <form asp-controller="Curso" asp-action="Inscribirse" method="post" style="display:inline;">
+                            <input type="hidden" name="cursoId" value="@item.Id" />
+                            <button type="submit" class="btn btn-sm btn-success">Inscribirme</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
